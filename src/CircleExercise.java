@@ -12,6 +12,8 @@ public class CircleExercise {
 		System.out.println("Radius dritter Kreis: ");
 		double radius3 = sc.nextDouble();
 		sc.close();
+		//grundklasse aller klassen
+		Object o1 = new Object();
 		System.out.println("1. Kreis:");
 		System.out.println("Radius: " + radius1);
 		System.out.println("Umfang: "+(Circle.getCircumference(radius1)));
